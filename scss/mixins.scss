@@ -1,0 +1,27 @@
+/* EXAMPLE
+
+@mixin tour-background($bg-img: url("../images/israel-tour-01.png")) {
+  background-image: $bg-img;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+@mixin banner($bg-img: url("../images/home-banner.jpg")){
+    width: 100%;
+    background-image: $bg-img;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+@mixin racerImage($bg-img: url("../images/norris.jpg")){
+  width: 500px;
+  height: 500px;
+  background-image: $bg-img;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}

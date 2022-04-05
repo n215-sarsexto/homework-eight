@@ -1,0 +1,35 @@
+.racer{
+    background-color: $site-bg;
+    width: 70%;
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+
+    #norris{
+        @include racerImage();
+    }
+    #ricciardo{
+        @include racerImage($bg-img: url("../images/ricciardo.jpg"));
+    }
+    #hamilton{
+        @include racerImage($bg-img: url("../images/hamilton.jpg"));
+    }
+    #russell{
+        @include racerImage($bg-img: url("../images/russell.jpg"));
+    }
+    #stroll{
+        @include racerImage($bg-img: url("../images/stroll.jpg"));
+    }
+    #hulkenburg{
+        @include racerImage($bg-img: url("../images/hulkenburg.png"));
+    }
+
+    .racer-description{
+        max-width: 60%;
+
+    }
+
+}

@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: $nav-color;
+  height: 50px;
+  width: 100%;
+
+  a {
+    color: $site-text;
+    text-decoration: none;
+  }
+}

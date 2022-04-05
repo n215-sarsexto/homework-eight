@@ -1,0 +1,24 @@
+.mclaren{
+    background-color: $site-bg;
+    color: $site-text;
+    margin: 0 auto;
+    width: 100%;
+
+   #mcbanner{
+        @include banner($bg-img: url("../images/mclaren-banner.jpg"));
+    }
+
+    h1{
+        text-align: center;
+        color: $mclaren-orange;
+        padding: 20px;
+    }
+    h2, h3{
+        text-align: center;
+        color: $mclaren-orange;
+    }
+
+    a{
+        color: $mclaren-orange;
+    }
+}

@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* EXAMPLE
+
+@mixin tour-background($bg-img: url("../images/israel-tour-01.png")) {
+  background-image: $bg-img;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+}
+
+.home {
+  background-color: #171a21;
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+}
+.home #home-banner {
+  width: 100%;
+  background-image: url("../images/home-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.home .home-content {
+  margin: 0 auto;
+  width: 70%;
+}
+.home .home-content h1 {
+  text-align: center;
+  padding: 50px;
+}
+.home .home-content .home-text {
+  padding-bottom: 50px;
+}
+
+.aston {
+  background-color: #171a21;
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+}
+.aston #abanner {
+  width: 100%;
+  background-image: url("../images/aston-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.aston h1 {
+  text-align: center;
+  color: #015850;
+  padding: 20px;
+}
+.aston h2, .aston h3 {
+  text-align: center;
+  color: #015850;
+}
+.aston a {
+  color: #015850;
+}
+
+.mclaren {
+  background-color: #171a21;
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+}
+.mclaren #mcbanner {
+  width: 100%;
+  background-image: url("../images/mclaren-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.mclaren h1 {
+  text-align: center;
+  color: #ff8000;
+  padding: 20px;
+}
+.mclaren h2, .mclaren h3 {
+  text-align: center;
+  color: #ff8000;
+}
+.mclaren a {
+  color: #ff8000;
+}
+
+.mercedes {
+  background-color: #171a21;
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+}
+.mercedes #mcbanner {
+  width: 100%;
+  background-image: url("../images/mercedes-banner.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.mercedes h1 {
+  text-align: center;
+  color: #00a19c;
+  padding: 20px;
+}
+.mercedes h2, .mercedes h3 {
+  text-align: center;
+  color: #00a19c;
+}
+.mercedes a {
+  color: #00a19c;
+}
+
+.racer {
+  background-color: #171a21;
+  width: 70%;
+  min-height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.racer #norris {
+  width: 500px;
+  height: 500px;
+  background-image: url("../images/norris.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+.racer #ricciardo {
+  width: 500px;
+  height: 500px;
+  background-image: url("../images/ricciardo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+.racer #hamilton {
+  width: 500px;
+  height: 500px;
+  background-image: url("../images/hamilton.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+.racer #russell {
+  width: 500px;
+  height: 500px;
+  background-image: url("../images/russell.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+.racer #stroll {
+  width: 500px;
+  height: 500px;
+  background-image: url("../images/stroll.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+.racer #hulkenburg {
+  width: 500px;
+  height: 500px;
+  background-image: url("../images/hulkenburg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+.racer .racer-description {
+  max-width: 60%;
+}
+
+/*# sourceMappingURL=style.css.map */

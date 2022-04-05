@@ -1,0 +1,9 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: $nav-color;
+  color: $site-text;
+  height: 50px;
+  width: 100%;
+}
